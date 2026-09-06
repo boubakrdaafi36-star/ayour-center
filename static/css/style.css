@@ -63,20 +63,13 @@ body {
 
 
 
-.logo {
+.logo img {
 
+    width:170px;
 
-    color:white;
-
-    font-size:30px;
-
-    font-weight:700;
-
-    letter-spacing:3px;
-
+    height:auto;
 
 }
-
 
 
 .nav-links a {
@@ -954,5 +947,20 @@ to {
 }
 
 
+
+}
+
+.hero-logo img {
+
+    width:520px;
+
+    max-width:100%;
+
+    margin-bottom:30px;
+
+    filter:
+    drop-shadow(
+    0 20px 40px rgba(0,0,0,.3)
+    );
 
 }
