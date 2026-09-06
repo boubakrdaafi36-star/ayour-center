@@ -1,0 +1,100 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {% block title %}
+        Centre Ayour
+        {% endblock %}
+    </title>
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- Notre CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        AYOUR
+    </div>
+
+
+    <div class="nav-links">
+
+        <a href="/">
+            Accueil
+        </a>
+
+        <a href="#">
+            Formations
+        </a>
+
+        <a href="#">
+            Professeur
+        </a>
+
+        <a href="#">
+            Contact
+        </a>
+
+    </div>
+
+
+</nav>
+
+
+
+<!-- CONTENU DES PAGES -->
+
+{% block content %}
+
+{% endblock %}
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 Centre Ayour - Tous droits réservés
+</p>
+
+</footer>
+
+
+<a href="https://wa.me/212636397868"
+class="whatsapp"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+</body>
+
+</html>
